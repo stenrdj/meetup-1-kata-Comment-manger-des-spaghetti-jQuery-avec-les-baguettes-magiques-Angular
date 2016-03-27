@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Back to the future shop">
+    <meta name="author" content="developer from the futur">
+
+    <title>Shop Homepage - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="mainMenu"></ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead">
+                    <a href="index.html">
+                        <img src="img/logo.jpg" alt="" style="width: 200px;">
+                    </a>
+                </p>
+                <div class="list-group" id="sideMenu"></div>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        Home > <span id="productName"></span>
+                        <br/>
+                        <br/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img src="" id="productBigImage" style="width: 300px;">
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                        <table class="productInfo">
+                            <tr>
+                                <td>
+                                    Product code : <span id="productCode"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Availability : <span id="productAvailability"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Price : <span id="productPrice"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Quantity :
+                                </td>
+                                <td>
+                                    <select>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><br></td>
+                                <td><br></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-primary" type="button">
+                                        Add to cart
+                                        <span class="badge" id="productQuantity"></span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <div class="alert alert-success" role="alert">Add to wich list - Add to compare</div>
+                    </div>
+                    <div class="col-md-12">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" class="active">
+                                <a href="#">Description</a>
+                            </li>
+                        </ul>
+                        <div id="productDescription"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <hr>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Bach to the Future</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/tools/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/tools/bootstrap.js"></script>
+
+    <script src="js/tools/params.js"></script>
+    <script src="js/shared.js"></script>
+    <script src="js/productDetailPage.js"></script>
+
+</body>
+
+</html>
